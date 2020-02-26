@@ -25,7 +25,7 @@ export default class AddTodo extends Component {
                 />
                 <input 
                     type="submit"
-                    value="Submit"
+                    value="Add"
                     className="btn"
                 />
             </form>
