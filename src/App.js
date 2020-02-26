@@ -8,7 +8,7 @@ export default class App extends Component {
     todos: [
       {
         id: 1,
-        title: 'Make this app work',
+        title: 'Make this app work, and test it to asure',
         completed: false
       }
     ]  
@@ -42,7 +42,9 @@ export default class App extends Component {
       <div className="App">
         <Header />
         <AddTodo addTodo={this.addTodo} />
-        <Todos  todos={this.state.todos} toggleComplete={this.toggleComplete} delTodo={this.delTodo}/>
+        <div className="todos">
+          <Todos  todos={this.state.todos} toggleComplete={this.toggleComplete} delTodo={this.delTodo}/>
+        </div>
       </div>
     );
   }
