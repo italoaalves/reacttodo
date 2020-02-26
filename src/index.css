@@ -31,6 +31,7 @@ form input[type=text] {
   border-top-left-radius: .5rem;
   border-bottom-left-radius: .5rem;
   outline: none;
+  background: whitesmoke;
 }
 
 form input[type=submit] {
@@ -53,10 +54,10 @@ form input[type=submit] {
   justify-content: space-between;
   margin: 1rem .5rem;
   padding: .5rem;
-  background: white;
+  background: whitesmoke;
   border-radius: .5rem;
-  box-shadow:  3px 3px 3px #d0d0d0, 
-               -3px -3px 3px #ffffff;
+  box-shadow:  5px 5px 3px #d0d0d0, 
+               -5px -5px 3px #ffffff;
 }
 
 .todos div p {
