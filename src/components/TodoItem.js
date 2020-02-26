@@ -16,6 +16,7 @@ export default class TodoItem extends Component {
       <div style={this.getStyle()}>
         <input type="checkbox" onChange={this.props.toggleComplete.bind(this, id)}></input>
         <p>{title}</p>
+        <button onClick={this.props.delTodo.bind(this, id)}>X</button>
       </div>
     );
   }

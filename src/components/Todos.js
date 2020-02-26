@@ -8,7 +8,7 @@ export default class Todos extends Component {
     return this.props.todos.map(
       (todo) => (
         
-        <TodoItem key={todo.id} todo={todo} toggleComplete={this.props.toggleComplete}/>
+        <TodoItem key={todo.id} todo={todo} toggleComplete={this.props.toggleComplete} delTodo={this.props.delTodo}/>
     ));
   }
 }
