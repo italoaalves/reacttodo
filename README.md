@@ -1,4 +1,4 @@
-# reacttodo
+# React todo-list app
 A simple react Todo list Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
